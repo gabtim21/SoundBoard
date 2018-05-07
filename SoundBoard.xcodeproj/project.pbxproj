@@ -13,6 +13,7 @@
 		E812483220A0D729007E48A1 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E812483020A0D729007E48A1 /* SoundBoard.xcdatamodeld */; };
 		E812483420A0D729007E48A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E812483320A0D729007E48A1 /* Assets.xcassets */; };
 		E812483720A0D729007E48A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E812483520A0D729007E48A1 /* LaunchScreen.storyboard */; };
+		E8A1B52020A0DF6400DF5599 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B51F20A0DF6400DF5599 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E812483320A0D729007E48A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E812483620A0D729007E48A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E812483820A0D729007E48A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A1B51F20A0DF6400DF5599 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E812483520A0D729007E48A1 /* LaunchScreen.storyboard */,
 				E812483820A0D729007E48A1 /* Info.plist */,
 				E812483020A0D729007E48A1 /* SoundBoard.xcdatamodeld */,
+				E8A1B51F20A0DF6400DF5599 /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A1B52020A0DF6400DF5599 /* SoundViewController.swift in Sources */,
 				E812483220A0D729007E48A1 /* SoundBoard.xcdatamodeld in Sources */,
 				E812482C20A0D729007E48A1 /* ViewController.swift in Sources */,
 				E812482A20A0D729007E48A1 /* AppDelegate.swift in Sources */,
@@ -308,6 +312,7 @@
 				E812483D20A0D729007E48A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
